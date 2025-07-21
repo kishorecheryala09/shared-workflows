@@ -14,7 +14,7 @@ on:
         type: string
     secrets:
       azure-profile:
-        required: false
+        required: true
 
 jobs:
 
