@@ -41,4 +41,4 @@ jobs:
         app-name: ${{ inputs.app-name }}
         slot-name: ${{ inputs.deployment-slot }}
         package: .
-        publish-profile: ${{ secrets.azure.profile }}   
+        publish-profile: ${{ secrets.azure-profile }}   
